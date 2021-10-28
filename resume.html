@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="resume.html">Resume</a>
+</li>
+<li>
+  <a href="resume.html">Plots</a>
+</li>
+<li>
+  <a href="mailto:&lt;spatel41@gmail.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/spatel41/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resume</h1>
+
+</div>
+
+
+<div id="suhani-patel" class="section level2">
+<h2>Suhani Patel</h2>
+<div id="education" class="section level3">
+<h3>Education</h3>
+<div id="columbia-university-new-york-new-york-expected-graduation-may-2022" class="section level5">
+<h5>Columbia University; New York, New York — Expected Graduation: May 2022</h5>
+<ul>
+<li><strong>DEGREE</strong>: Master of Public Health (MPH), Epidemiology; CERTIFICATE: Applied Biostatistics and Public Health Data Science</li>
+<li><strong>CUMULATIVE GPA</strong>: 4.10 on a 4.33 scale</li>
+<li><strong>RELEVENT COURSES</strong>: Research Methods and Applications, Determinants of Health, Applied Regression I and II, Analysis of Categorical Data, Design and Conduct of Observational Experiments, Applications of Epidemiologic Research, Applied Epidemiologic Analysis, Race and Health, Data Science</li>
+</ul>
+</div>
+<div id="university-of-washington-seattle-washington-june-2020" class="section level5">
+<h5>University of Washington; Seattle, Washington — June 2020</h5>
+<ul>
+<li><strong>DEGREE</strong>: Bachelor of Science; MAJOR: Environmental Health</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="public-health-experience" class="section level3">
+<h3>Public Health Experience</h3>
+<div id="pfizer-summer-student-worker-global-real-world-data-insights-analytics-and-strategy-new-york-ny-jun.2019-aug.2019" class="section level5">
+<h5><strong>Pfizer Summer Student Worker, Global Real World Data Insights, Analytics, and Strategy</strong> – New York, NY Jun. 2019 – Aug. 2019</h5>
+<ul>
+<li>Collaborated with team of student to problem solve low engagement in webinars among corporate affairs</li>
+<li>Conducted interviews and researched potential platforms among a team of students.</li>
+<li>Presented findings to heads of corporate affairs among a team of students.</li>
+<li>Created a scheme of communication to aid in organization of data assets.</li>
+<li>Manipulated Excel spreadsheets to increase readability and created summary Pivot tables.</li>
+<li>Aided in the creation of a SharePoint site by organizing, defining, and characterizing all key commercial data assets in North America and Latin America.</li>
+</ul>
+</div>
+<div id="covid-19-student-service-corps-volunteer-morgan-stanley-childrens-hospital-new-york-ny-sep.2020-on-going" class="section level5">
+<h5><strong>COVID 19 Student Service Corps Volunteer, Morgan Stanley Children’s Hospital</strong>; New York, NY Sep. 2020 – on going</h5>
+<ul>
+<li>Increasing access to virtual hospital visits through educational phone calls with patient’s families.</li>
+<li>Collecting data on barriers to hospital visits.</li>
+</ul>
+</div>
+<div id="cdc-intern-national-environmental-health-association-portage-county-health-department-ravenna-oh-jun.2019-aug.2019" class="section level5">
+<h5><strong>CDC Intern, National Environmental Health Association; Portage County Health Department</strong> – Ravenna, OH Jun. 2019 – Aug. 2019</h5>
+<ul>
+<li>Independently led a West Nile Virus surveillance program including tracking rates in over 20 locations per week, data analysis, and implementing prevention methods.</li>
+<li>Collaborated with disease experts on investigations into storm water contamination and harmful algal blooms.<br />
+</li>
+<li>Collected and analyzed pool water quality data in over 70 pools and educated pool managers on water safety.</li>
+</ul>
+</div>
+<div id="public-health-intern-ie3-global-child-family-health-international-delhi-india-aug.2018" class="section level5">
+<h5><strong>Public Health Intern, IE3 Global – Child Family Health International</strong> – Delhi, India Aug. 2018</h5>
+<ul>
+<li>Explored over 6 public health organizations to learn about low rates of immunization, poor sanitation, waste management, air pollution, HIV/AIDS, and unsafe drinking water in Delhi, India.<br />
+</li>
+<li>Organized interactive, educational session on mental health for families facing drug addiction.</li>
+<li>Taught children about the importance of personal hygiene through engaging games and demonstrations.</li>
+<li>Participated in community outreach programs by visiting marginalized families to promote health and education for children.</li>
+</ul>
+</div>
+<div id="rural-healthcare-shadow-healthcare-alternative-spring-break-odessa-wa-mar.2018" class="section level5">
+<h5><strong>Rural Healthcare Shadow, Healthcare Alternative Spring Break</strong>; Odessa, WA Mar. 2018</h5>
+<ul>
+<li>Observed barriers to accessing public health programs and healthcare in a rural, underserved community.</li>
+<li>Prepared and presented presentation on higher education to 40 high school students.</li>
+</ul>
+</div>
+<div id="intern-patient-experience-ambassador-swedish-medical-hospital-seattle-wa-oct.2017-nov.2018" class="section level5">
+<h5><strong>Intern &amp; Patient Experience Ambassador, Swedish Medical Hospital</strong>; Seattle, WA Oct. 2017 – Nov. 2018</h5>
+<ul>
+<li>Collected data on patient safety and wrote over 20 reports on safety concerns and patient satisfaction for a hospital led initiative.</li>
+<li>Communicated with patients and nurses to ensure patient’s needs were met.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="research-experience" class="section level3">
+<h3>Research Experience</h3>
+<div id="researcher-international-center-for-aids-care-and-treatment-program-icap-columbia-university-new-york-ny-jun.2021-on-going" class="section level5">
+<h5><strong>Researcher, International Center for AIDS Care and Treatment Program (ICAP) Columbia University</strong>; New York, NY Jun. 2021– on going</h5>
+<ul>
+<li>Wrote SAS code, conducted statistical tests, and created regression models under direction of advisor.</li>
+<li>Created tables and figures for manuscript using Excel.</li>
+<li>Conducted literature search to compare study results with existing literature.</li>
+<li>Drafted manuscript for publication in a peer review journal.</li>
+<li>Presented research to ICAP director and managers.</li>
+</ul>
+</div>
+<div id="student-research-volunteer-the-environmental-and-occupational-health-microbiology-laboratory-seattle-wa-sep.2019-jun.2020" class="section level5">
+<h5><strong>Student Research Volunteer, The Environmental and Occupational Health Microbiology Laboratory</strong>; Seattle, WA Sep. 2019 – Jun. 2020</h5>
+<ul>
+<li>Supported PI in developing and testing methods for the environmental detection of typhoid to aid in global infectious disease tracking.</li>
+<li>Aided in experiments by conducting DNA extractions, cell membrane filtration, bag mediated water filtration, dilutions, and spot plating.</li>
+</ul>
+</div>
+<div id="research-assistant-environmental-health-and-earthquakes-seattle-wa-jan.2019-jun.2019" class="section level5">
+<h5><strong>Research Assistant, Environmental Health and Earthquakes</strong>; Seattle, WA Jan. 2019 – Jun. 2019</h5>
+<ul>
+<li>Conducted a literature review on earthquake related sanitation system damage and preparation for at risk communities.</li>
+<li>Sorted through hundreds of academic publications to create a list of recommended interventions for the prevention of damage to wastewater systems for future earthquakes in Washington State.</li>
+<li>Presented a poster at the University of Washington’s, School of Public Health, Undergraduate Research Symposium.<br />
+</li>
+<li>Among a team, wrote a report for Washington State’s Emergency Management Division’s Earthquake Program.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="leadership" class="section level3">
+<h3>Leadership</h3>
+<div id="director-of-operations-advocates-for-asian-american-health-new-york-ny-jan.2021-on-going" class="section level5">
+<h5><strong>Director of Operations, Advocates for Asian American Health</strong>; New York, NY Jan. 2021 – on going</h5>
+<ul>
+<li>Collaborating with student group to organize events to advocate for Asian American health.</li>
+<li>Completing financial paperwork, managing budget, and logging finances.</li>
+</ul>
+</div>
+<div id="health-advocate-education-transforming-community-health-seattle-wa-jan.2016-jun.2020" class="section level5">
+<h5><strong>Health Advocate, Education Transforming Community Health</strong>; Seattle, WA Jan. 2016 – Jun. 2020</h5>
+<ul>
+<li>Coordinated and lead educational sessions to advocate for healthy habits among underserved populations.<br />
+</li>
+<li>Instructed on topics including infectious diseases, sanitation, and nutrition at homeless shelters in over 30 sessions.</li>
+<li>Created a new initiative to connect people who are homeless with health care providers through educational material.</li>
+</ul>
+</div>
+<div id="professional-development-chair-student-environmental-health-association-seattle-wa-jun.2019-jun.2020" class="section level5">
+<h5><strong>Professional Development Chair, Student Environmental Health Association</strong>; Seattle, WA Jun. 2019 – Jun. 2020</h5>
+<ul>
+<li>Collaborated with student group to organize environmental health related events to provide professional development opportunities.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="certificates" class="section level3">
+<h3>Certificates</h3>
+<div id="contact-tracing-certificate" class="section level5">
+<h5><strong>Contact Tracing Certificate</strong></h5>
+<ul>
+<li>Johns Hopkins; Issued July 2020 30-hour Construction Safety and Health</li>
+<li>OSHA Safety Training Institute, University of Washington; Issued May 2019 Health Policy and Management<br />
+</li>
+<li>UCLA’s Executive Programs, Swedish Medical Hospital; Issued November 2018</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="skills" class="section level3">
+<h3>Skills</h3>
+<div id="strong-knowledge-of-ms-office-word-excel-powerpoint-sas-r." class="section level5">
+<h5><strong>Strong knowledge of MS Office (Word, Excel, PowerPoint), SAS, R.</strong></h5>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

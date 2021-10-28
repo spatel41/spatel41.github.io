@@ -1,0 +1,22 @@
+---
+title: "Suhani Patel"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### Columbia, Mailman School of Public Health
+#### Department: Epidemiology 
+#### Certificate: Applied Biostatistics and Public Health Data Science
+
+Suhani is pursuing her MPH - Epidemiology with a certificate in Applied Biostatistics at The Mailman School of Public Health at Columbia University. She obtained her BS in Environmental Health from the University of Washington. Suhani’s research interests include HIV/AIDS prevention. For more information, please visit my [Linkedin](https://www.linkedin.com/in/suhanispatel/).
+
+### Pages
+* [Resume](resume.html)
+* [Plots](plots.html)
+
+*****
+
+<img src="pictures/DSC_0924.jpeg" style="width:75%">
+

@@ -1,0 +1,122 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Suhani Patel 
+
+### Education 
+##### Columbia University; New York, New York — Expected Graduation: May 2022 
+
+* **DEGREE**: Master of Public Health (MPH), Epidemiology; CERTIFICATE: Applied Biostatistics and Public Health Data Science
+*	**CUMULATIVE GPA**: 4.10 on a 4.33 scale
+*	**RELEVENT COURSES**: Research Methods and Applications, Determinants of Health, Applied Regression I and II, Analysis of Categorical Data, Design and Conduct of Observational Experiments, Applications of Epidemiologic Research, Applied Epidemiologic Analysis, Race and Health, Data Science
+
+##### University of Washington; Seattle, Washington — June 2020
+
+*	**DEGREE**: Bachelor of Science; MAJOR: Environmental Health
+
+*****
+
+### Public Health Experience
+
+##### **Pfizer Summer Student Worker, Global Real World Data Insights, Analytics, and Strategy** – New York, NY Jun. 2019 – Aug. 2019
+
+*	Collaborated with team of student to problem solve low engagement in webinars among corporate affairs 
+  +	Conducted interviews and researched potential platforms among a team of students. 
+  +	Presented findings to heads of corporate affairs among a team of students. 
+*	Created a scheme of communication to aid in organization of data assets. 
+*	Manipulated Excel spreadsheets to increase readability and created summary Pivot tables. 
+*	Aided in the creation of a SharePoint site by organizing, defining, and characterizing all key commercial data assets in North America and Latin America. 
+
+##### **COVID 19 Student Service Corps Volunteer, Morgan Stanley Children’s Hospital**; New York, NY Sep. 2020 – on going
+
+*	Increasing access to virtual hospital visits through educational phone calls with patient’s families.
+*	Collecting data on barriers to hospital visits. 
+
+##### **CDC Intern, National Environmental Health Association; Portage County Health Department** – Ravenna, OH Jun. 2019 – Aug. 2019
+
+*	Independently led a West Nile Virus surveillance program including tracking rates in over 20 locations per week, data analysis, and implementing prevention methods. 
+*	Collaborated with disease experts on investigations into storm water contamination and harmful algal blooms.  
+*	Collected and analyzed pool water quality data in over 70 pools and educated pool managers on water safety.
+
+##### **Public Health Intern, IE3 Global – Child Family Health International** – Delhi, India Aug. 2018
+
+*	Explored over 6 public health organizations to learn about low rates of immunization, poor sanitation, waste management, air pollution, HIV/AIDS, and unsafe drinking water in Delhi, India.  
+*	Organized interactive, educational session on mental health for families facing drug addiction. 
+*	Taught children about the importance of personal hygiene through engaging games and demonstrations. 
+*	Participated in community outreach programs by visiting marginalized families to promote health and education for children. 
+
+##### **Rural Healthcare Shadow, Healthcare Alternative Spring Break**; Odessa, WA Mar. 2018 
+
+*	Observed barriers to accessing public health programs and healthcare in a rural, underserved community.
+*	Prepared and presented presentation on higher education to 40 high school students. 
+
+##### **Intern & Patient Experience Ambassador, Swedish Medical Hospital**; Seattle, WA Oct. 2017 – Nov. 2018
+
+*	Collected data on patient safety and wrote over 20 reports on safety concerns and patient satisfaction for a hospital led initiative.
+*	Communicated with patients and nurses to ensure patient’s needs were met. 
+
+*****
+
+### Research Experience
+
+##### **Researcher, International Center for AIDS Care and Treatment Program (ICAP) Columbia University**; New York, NY Jun. 2021– on going
+
+*	Wrote SAS code, conducted statistical tests, and created regression models under direction of advisor. 
+*	Created tables and figures for manuscript using Excel.
+*	Conducted literature search to compare study results with existing literature. 
+*	Drafted manuscript for publication in a peer review journal. 
+*	Presented research to ICAP director and managers. 
+
+##### **Student Research Volunteer, The Environmental and Occupational Health Microbiology Laboratory**; Seattle, WA Sep. 2019 – Jun. 2020
+
+*	Supported PI in developing and testing methods for the environmental detection of typhoid to aid in global infectious disease tracking.
+*	Aided in experiments by conducting DNA extractions, cell membrane filtration, bag mediated water filtration, dilutions, and spot plating. 
+
+##### **Research Assistant, Environmental Health and Earthquakes**; Seattle, WA Jan. 2019 – Jun. 2019
+
+*	Conducted a literature review on earthquake related sanitation system damage and preparation for at risk communities.
+*	Sorted through hundreds of academic publications to create a list of recommended interventions for the prevention of damage to wastewater systems for future earthquakes in Washington State. 
+*	Presented a poster at the University of Washington’s, School of Public Health, Undergraduate Research Symposium.  
+*	Among a team, wrote a report for Washington State’s Emergency Management Division’s Earthquake Program. 
+
+*****
+
+### Leadership
+
+##### **Director of Operations, Advocates for Asian American Health**; New York, NY Jan. 2021 – on going
+
+*	Collaborating with student group to organize events to advocate for Asian American health. 
+*	Completing financial paperwork, managing budget, and logging finances. 
+
+##### **Health Advocate, Education Transforming Community Health**; Seattle, WA Jan. 2016 – Jun. 2020
+
+*	Coordinated and lead educational sessions to advocate for healthy habits among underserved populations.  
+*	Instructed on topics including infectious diseases, sanitation, and nutrition at homeless shelters in over 30 sessions. 
+*	Created a new initiative to connect people who are homeless with health care providers through educational material. 
+
+##### **Professional Development Chair, Student Environmental Health Association**; Seattle, WA Jun. 2019 – Jun. 2020
+
+*	Collaborated with student group to organize environmental health related events to provide professional development opportunities.
+
+*****
+
+### Certificates
+##### **Contact Tracing Certificate** 
+
+*	Johns Hopkins; Issued July 2020
+30-hour Construction Safety and Health 
+*	OSHA Safety Training Institute, University of Washington; Issued May 2019
+Health Policy and Management  
+*	UCLA’s Executive Programs, Swedish Medical Hospital; Issued November 2018
+
+*****
+
+### Skills
+##### **Strong knowledge of MS Office (Word, Excel, PowerPoint), SAS, R.** 
+
+

@@ -1,0 +1,58 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Plots
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("instacart")
+```
+
+
+### Scatterplot
+
+The number of orders from each department. 
+```{r}
+instacart %>% 
+  count(department) %>% 
+  mutate(
+    department = factor(department),
+    department = fct_reorder(department, n)) %>% 
+  plot_ly (x = ~department, y = ~n, type = "scatter", mode = "markers", alpha = 0.5)
+```
+
+### Boxplot 
+
+```{r}
+instacart1 = instacart %>% 
+  filter(product_id < 50)
+```
+
+```{r}
+instacart1 %>% 
+  mutate(department = fct_reorder(department, days_since_prior_order)) %>% 
+  plot_ly(y = ~days_since_prior_order, color = ~department, type = "box", colors = "viridis")
+```
+
+### Histogram 
+
+```{r}
+instacart %>% 
+  count(department) %>% 
+  mutate(
+    department = factor(department),
+    department = fct_reorder(department, n)) %>% 
+  plot_ly (x = ~department, color = ~department, y = ~n, type = "bar", colors = "viridis")
+```
+
+nyc_airbnb %>% 
+  count(neighbourhood) %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
+  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar", colors = "viridis")

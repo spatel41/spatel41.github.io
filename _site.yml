@@ -1,0 +1,16 @@
+name: "Suhani Patel"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Resume"
+      href: resume.html
+    - text: "Plots"
+      href: resume.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<spatel41@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/spatel41/
+output:
+  html_document:
+    theme: cosmo
