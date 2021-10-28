@@ -6,7 +6,7 @@ navbar:
     - text: "Resume"
       href: resume.html
     - text: "Plots"
-      href: resume.html
+      href: plots.html
     - icon: fa-envelope fa-lg
       href: mailto:<spatel41@gmail.com>
     - icon: fa-github fa-lg
