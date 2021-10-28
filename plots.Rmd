@@ -1,12 +1,16 @@
 ---
-title: "Resume"
+title: "Plots"
 output: 
   html_document:
     toc: true
     toc_float: true
+    code_folding: hide
 ---
 
-## Plots
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
 
 ```{r}
 library(tidyverse)
@@ -18,14 +22,16 @@ data("instacart")
 
 ### Scatterplot
 
-The number of orders from each department. 
 ```{r}
-instacart %>% 
-  count(department) %>% 
-  mutate(
-    department = factor(department),
-    department = fct_reorder(department, n)) %>% 
-  plot_ly (x = ~department, y = ~n, type = "scatter", mode = "markers", alpha = 0.5)
+instacart2 = instacart %>% 
+  filter(product_id < 20)
+```
+
+Scatterplot of the hour an item was ordered by the number of items ordered. 
+
+```{r}
+instacart2 %>% 
+  plot_ly (x = ~add_to_cart_order, y = ~order_hour_of_day, type = "scatter", mode = "markers", alpha = 0.5, color = ~product_id)
 ```
 
 ### Boxplot 
@@ -35,6 +41,8 @@ instacart1 = instacart %>%
   filter(product_id < 50)
 ```
 
+Boxplot of the days since the prior order by each department.
+
 ```{r}
 instacart1 %>% 
   mutate(department = fct_reorder(department, days_since_prior_order)) %>% 
@@ -42,6 +50,8 @@ instacart1 %>%
 ```
 
 ### Histogram 
+
+Histogram of the number of items ordered in each department.
 
 ```{r}
 instacart %>% 
@@ -52,7 +62,3 @@ instacart %>%
   plot_ly (x = ~department, color = ~department, y = ~n, type = "bar", colors = "viridis")
 ```
 
-nyc_airbnb %>% 
-  count(neighbourhood) %>% 
-  mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
-  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar", colors = "viridis")
