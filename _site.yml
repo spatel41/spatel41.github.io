@@ -11,6 +11,8 @@ navbar:
       href: mailto:<spatel41@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/spatel41/
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/suhanispatel/
 output:
   html_document:
     theme: cosmo
